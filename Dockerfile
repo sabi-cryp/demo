@@ -1,0 +1,7 @@
+FROM openjdk:11
+VOLUME /tmp
+ARG JAVA_OPTS
+ENV JAVA_OPTS=$JAVA_OPTS
+COPY target/demo-0.0.1-SNAPSHOT.jar demo.jar
+EXPOSE 8040
+ENTRYPOINT exec java $JAVA_OPTS -jar demo.jar
