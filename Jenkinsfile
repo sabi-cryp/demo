@@ -1,7 +1,7 @@
 pipeline {
     agent any
 
-   node {
+   stages {
      //stage('SCM') {
        //git 'https://github.com/sabi-cryp/demo'
      //}
