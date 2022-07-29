@@ -1,0 +1,11 @@
+sonar.login=admin
+    D sonar.password=Kerchaoui123@
+      sonar.projectBaseDir=/var/lib/jenkins/workspace/jenkins-sonar/
+        sonar.projectKey=demo
+        sonar.projectName=demo
+        sonar.sourceEncoding=UTF-8
+        sonar.language=java
+        sonar.sources=/var/lib/jenkins/workspace/jenkins-sonar/demo/src/main
+        sonar.tests=/var/lib/jenkins/workspace/jenkins-sonar/demo/src/test
+        sonar.exclusions=vendor/**,resources/**,**/*.java
+        sonar.host.url=http://localhost:9000/
